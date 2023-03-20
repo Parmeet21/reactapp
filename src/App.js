@@ -52,11 +52,14 @@ document.body.classList.add('bg-'+cls)
   if(mode==='dark'){
     setmode('light');
     showalert("dark theme change su","success");
+    document.title="darktheme"
     
   }
   else{
     setmode('dark');
     showalert("light theme change su","danger");
+    
+    document.title="lighttheme"
    
   }
  }

@@ -12,8 +12,7 @@ export default function Header(props) {
         <li><Link to="/features" className="nav-link">Features</Link></li>
         <li><Link to="/" className="nav-link">Home</Link></li>
         <li><Link to="/example" className="nav-link">Example</Link></li>
-        <li><Link to="/faq" className="nav-link">FAQs</Link></li>
-        <li><Link to="/" className="nav-link">About</Link></li>
+        <li><Link to="/faq" className="nav-link">FAQss</Link></li>
       </ul>
       
       <div className='d-flex'>
