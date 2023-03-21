@@ -80,10 +80,11 @@ document.body.classList.add('bg-'+cls)
   <Router>
     <div className='container-fluid'>
       <Header navbarmode={mode} settoggle={toggle} />
-      <Newcopm/>
-      <AnotherComp/>
+      
       <Alert alert={alert} />
-            
+      
+      <Newcopm/>
+      <AnotherComp/>      
 
       <Routes>
           <Route path="/" element={<Form title='Type Something' alert={showalert} value="start typing.."/>}>
