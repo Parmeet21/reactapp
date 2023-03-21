@@ -3,7 +3,9 @@ import React from 'react'
 export default function AnotherComp() {
   return (
     <div>
-      AnotherComp
+      <p>
+        Anothercompo
+      </p>
     </div>
   )
 }
