@@ -16,6 +16,7 @@ import {
   Route,
   Routes
 } from "react-router-dom";
+import Newcopm from './mycom/Newcopm';
 
 
 
@@ -78,6 +79,7 @@ document.body.classList.add('bg-'+cls)
   <Router>
     <div className='container-fluid'>
       <Header navbarmode={mode} settoggle={toggle} />
+      <Newcopm/>
       <Alert alert={alert} />
             
 
