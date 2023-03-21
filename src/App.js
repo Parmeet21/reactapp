@@ -82,7 +82,7 @@ document.body.classList.add('bg-'+cls)
       <Header navbarmode={mode} settoggle={toggle} />
       
       <Alert alert={alert} />
-      
+    
       <Newcopm/>
       <AnotherComp/>      
 
