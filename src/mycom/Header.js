@@ -10,7 +10,7 @@ export default function Header(props) {
   <nav className={`navbar navbar-expand-md navbar-${props.navbarmode} bg-${props.navbarmode}`}>
       <ul className="navbar-nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
         <li><Link to="/features" className="nav-link">Features</Link></li>
-        <li><Link to="/" className="nav-link">Home</Link></li>
+        <li><Link to="/" className="nav-link">Home Link</Link></li>
         <li><Link to="/example" className="nav-link">Example</Link></li>
         <li><Link to="/faq" className="nav-link">FAQss</Link></li>
       </ul>
